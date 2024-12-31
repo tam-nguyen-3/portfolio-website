@@ -1,14 +1,18 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Slideshow from './components/Slideshow'
+import projects from './data/projects'
+import experiences from './data/experiences'
 
 const App = () => {
   return (
-    <>
+    <main className='w-screen flex flex-col px-8 md:px-16 lg:px-32 xl:px-60 gap-8'>
       <Navbar />
-      <h1>Homepage</h1>
       <Hero />
-    </>
+      <Slideshow name='My Projects' items={projects}/>
+      <Slideshow name='My Experiences' items={experiences}/>
+    </main>
   )
 }
 
