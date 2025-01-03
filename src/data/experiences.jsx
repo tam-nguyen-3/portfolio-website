@@ -8,8 +8,8 @@ const experiences = [
   {
     image: "",
     title: "Expensely",
-    description: "Developed an app prototype providing actionable insights to reduce Scope 3 Emissions",
-    tags: ["Figma", "UX/UI"]
+    description: "A budget-tracking tool on the desktop to make managing personal expenses easier, straightforward, and insightful.",
+    tags: ["React", "Node.js", "UX/UI"]
   },
   {
     image: "",

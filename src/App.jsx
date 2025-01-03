@@ -1,22 +1,22 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Slideshow from './components/Slideshow'
-import projects from './data/projects'
-import experiences from './data/experiences'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Slideshow from "./components/Slideshow";
+import projects from "./data/projects";
+import experiences from "./data/experiences";
 
 const App = () => {
   return (
-    <main className='w-screen flex flex-col px-8 md:px-16 lg:px-32 xl:px-60 gap-8'>
+    <main className="w-screen flex flex-col px-8 md:px-16 lg:px-32 xl:px-60 gap-8">
       <Navbar />
       <Hero />
-      <Slideshow name='My Projects' items={projects}/>
-      <Slideshow name='My Experiences' items={experiences}/>
+      <Slideshow name="Highlighted Projects" items={projects} />
+      <Slideshow name="My Experiences" items={experiences} />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
 // import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
@@ -47,7 +47,8 @@ export default App
 //   )
 // }
 
-{/* <main className='flex w-screen px-60 pb-80 flex-col items-center gap-9'>
+{
+  /* <main className='flex w-screen px-60 pb-80 flex-col items-center gap-9'>
 <nav className='flex w-full h-16 justify-between items-center'>
   <section className='text-2xl'>
     <a href="">Tam</a>
@@ -60,4 +61,5 @@ export default App
 
 
 <p>Hellu</p>
-</main> */}
+</main> */
+}
