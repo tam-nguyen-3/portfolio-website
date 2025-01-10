@@ -17,8 +17,8 @@ const Slideshow = ({ name, items }) => {
           }
         `}
       </style>
-      <h3 className="text-lg font-bold text-gray-800 mb-4">{name}</h3>
-      <section className="flex overflow-x-auto snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 gap-4">
+      <h3 className="mb-4 text-lg font-bold">{name}</h3>
+      <section className="scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 flex snap-x snap-mandatory gap-4 overflow-x-auto">
         {items.map((item, index) => (
           <SlideCard key={index} item={item} />
         ))}

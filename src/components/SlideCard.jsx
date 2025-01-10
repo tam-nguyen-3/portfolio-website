@@ -2,11 +2,11 @@ import React from "react";
 
 const SlideCard = ({ item }) => {
   return (
-    <div className="snap-center flex-shrink-0 w-full sm:w-80  p-4 border rounded-lg shadow-md mb-6 hover:shadow-lg group hover:bg-light-theme-purple transition duration-300 ease-in-out flex flex-col gap-2">
+    <div className="group mb-6 flex w-full flex-shrink-0 snap-center flex-col gap-2 rounded-lg border p-4 shadow-md transition duration-300 ease-in-out hover:bg-light-theme-purple hover:shadow-lg sm:w-80">
       <img
         src={item.image}
         alt={item.title}
-        className="w-full max-w-80 h-48 object-cover rounded-md mb-4"
+        className="mb-4 h-40 w-full max-w-80 rounded-md object-cover"
       />
 
       {/* Text */}
@@ -16,12 +16,11 @@ const SlideCard = ({ item }) => {
       </div>
       <p className="text-sm">{item.description}</p>
 
-      
-      <div className="flex flex-wrap gap-2 mt-4">
+      <div className="mt-4 flex flex-wrap gap-2">
         {item.tags.map((tag, idx) => (
           <span
             key={idx}
-            className="px-3 py-1 text-xs font-medium bg-light-theme-purple group-hover:bg-white rounded-full border "
+            className="rounded-full border bg-light-theme-purple px-3 py-1 text-xs font-medium group-hover:bg-white"
           >
             {tag}
           </span>
