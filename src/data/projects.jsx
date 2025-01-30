@@ -1,8 +1,8 @@
-const publicUrl = import.meta.env.PUBLIC_URL || "";
-const lndataImg = `${publicUrl}/assets/lndata_cover.png`;
-const expenselyImg = `${publicUrl}/assets/expensely_cover.png`;
-const gundImg = `${publicUrl}/assets/gund_cover.png`;
-const portfolioImg = `${publicUrl}/assets/portfolio_cover.png`;
+const baseUrl = import.meta.env.BASE_URL || "";
+const lndataImg = `${baseUrl}assets/lndata_cover.png`;
+const expenselyImg = `${baseUrl}assets/expensely_cover.png`;
+const gundImg = `${baseUrl}assets/gund_cover.png`;
+const portfolioImg = `${baseUrl}assets/portfolio_cover.png`;
 
 const projects = [
   {
