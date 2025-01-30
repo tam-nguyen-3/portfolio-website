@@ -2,7 +2,7 @@ const baseUrl = import.meta.env.BASE_URL;
 
 const projects = [
   {
-    image: `${baseUrl}assets/lndata_cover.png`, //
+    image: `${baseUrl}assets/lndata_cover.png`,
     title: "GreenMove - Mobile App",
     subtitle: "Associated with LnData, Taiwan 🇹🇼",
     description:
