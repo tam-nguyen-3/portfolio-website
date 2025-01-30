@@ -1,12 +1,8 @@
-const baseUrl = import.meta.env.BASE_URL || "";
-const lndataImg = `${baseUrl}assets/lndata_cover.png`;
-const expenselyImg = `${baseUrl}assets/expensely_cover.png`;
-const gundImg = `${baseUrl}assets/gund_cover.png`;
-const portfolioImg = `${baseUrl}assets/portfolio_cover.png`;
+const baseUrl = import.meta.env.BASE_URL;
 
 const projects = [
   {
-    image: lndataImg,
+    image: `${baseUrl}assets/lndata_cover.png`, //
     title: "GreenMove - Mobile App",
     subtitle: "Associated with LnData, Taiwan 🇹🇼",
     description:
@@ -14,7 +10,7 @@ const projects = [
     tags: ["Figma", "UX/UI", "Solution Design"],
   },
   {
-    image: expenselyImg,
+    image: `${baseUrl}assets/expensely_cover.png`,
     title: "Expensely",
     subtitle: "[ongoing] Personal Project",
     description:
@@ -22,7 +18,7 @@ const projects = [
     tags: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS", "UX/UI"],
   },
   {
-    image: gundImg,
+    image: `${baseUrl}assets/gund_cover.png`, 
     title: "Gund Gallery Feedback Site",
     subtitle: "Kenyon College, Ohio 🇺🇸",
     description:
@@ -30,7 +26,7 @@ const projects = [
     tags: ["Javascript", "C++", "RestAPI", "UX/UI", "HTML", "CSS"],
   },
   {
-    image: portfolioImg,
+    image: `${baseUrl}assets/portfolio_cover.png`, 
     title: "Personal Portfolio",
     subtitle: "[ongoing] Personal Project",
     description: "A personal website to showcase my projects and experiences.",
