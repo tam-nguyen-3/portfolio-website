@@ -1,5 +1,4 @@
 const publicUrl = import.meta.env.PUBLIC_URL || "";
-
 const lndataImg = `${publicUrl}/assets/lndata_cover.png`;
 const expenselyImg = `${publicUrl}/assets/expensely_cover.png`;
 const gundImg = `${publicUrl}/assets/gund_cover.png`;
