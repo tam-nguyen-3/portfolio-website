@@ -1,11 +1,11 @@
-// import avatar from "../assets/avatar.png";
+const publicUrl = import.meta.env.PUBLIC_URL || "";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
     <article className="flex flex-col items-center md:flex-row md:items-center md:gap-8">
       <figure className="mb-4 h-60 w-56 overflow-hidden rounded-full md:w-2/5">
-        <img src="/assets/avatar.png" alt="Avatar" className="h-full w-full object-cover" />
+        <img src={`${publicUrl}/assets/image.png`} alt="Avatar" className="h-full w-full object-cover" />
       </figure>
 
       <section className="flex flex-col items-center gap-4 md:w-3/5 md:items-start md:justify-center">
