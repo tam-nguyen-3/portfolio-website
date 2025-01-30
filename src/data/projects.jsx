@@ -1,4 +1,7 @@
-import lndataImg from "../assets/lndata.png";
+import lndataImg from "../assets/lndata_cover.png"
+import expenselyImg from "../assets/expensely_cover.png"
+import gundImg from "../assets/gund_cover.png"
+import portfolioImg from "../assets/portfolio_cover.png"
 
 const projects = [
   {
@@ -10,7 +13,7 @@ const projects = [
     tags: ["Figma", "UX/UI", "Solution Design"],
   },
   {
-    image: "",
+    image: expenselyImg,
     title: "Expensely",
     subtitle: "[ongoing] Personal Project",
     description:
@@ -18,7 +21,7 @@ const projects = [
     tags: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS", "UX/UI"],
   },
   {
-    image: "",
+    image: gundImg,
     title: "Gund Gallery Feedback Site",
     subtitle: "Kenyon College, Ohio 🇺🇸",
     description:
@@ -26,7 +29,7 @@ const projects = [
     tags: ["Javascript", "C++", "RestAPI", "UX/UI", "HTML", "CSS"],
   },
   {
-    image: "",
+    image: portfolioImg,
     title: "Personal Portfolio",
     subtitle: "[ongoing] Personal Project",
     description: "A personal website to showcase my projects and experiences.",
